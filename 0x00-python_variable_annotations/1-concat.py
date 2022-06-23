@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""add module
+"""concat module
 """
 
 
-def add(a: float, b: float) -> float:
-    """Add two numbers, a and b
+def concat(str1: str, str2: str) -> str:
+    """concat two strings
     Args:
-        a (float): number
-        b (float): number
+        str1 (str): first string
+        str2 (str): second string
     Returns:
-        float: a + b
+        str: str1 + str2
     """
-    return a + b
+    return str1 + str2
